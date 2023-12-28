@@ -1,0 +1,37 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "lol";
+  src: url(font/BeaufortforLOL-Medium.ttf);
+}
+@font-face {
+  font-family: "lol";
+  src: url(font/rix모던고딕b.ttf);
+  unicode-range: U+AC00-D7A3;
+}
+* {
+  font-family: lol;
+}
+
+body,
+h1 {
+  margin: 0px;
+}
+
+body {
+  position: relative;
+}
+
+.hidden {
+  display: none;
+}
+
+.top-nav {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: lightgray;
+  margin: 0px;
+}/*# sourceMappingURL=style.css.map */
